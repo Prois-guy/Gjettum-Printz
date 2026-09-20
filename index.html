@@ -1,11 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Gjettum Printz lager fargerike og nyttige 3D-printede produkter.">
+    <title>Gjettum Printz | 3D-printede ideer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+        if (window.location.hash) history.replaceState(null, "", window.location.pathname + window.location.search);
+        window.scrollTo(0, 0);
+    </script>
 </head>
-<body><a href="">goon</a>
-    
+<body>
+    <div class="wrap">
+        <header>
+            <a class="logo" href="#top" aria-label="Gjettum Printz hjem"><span class="logo-mark">GP</span> GJETTUM PRINTZ</a>
+            <nav aria-label="Hovedmeny">
+                <a href="#info">Info</a>
+                <a href="#projects">Tidligere prosjekter</a>
+                <a class="nav-cta" href="#order">Bestill</a>
+            </nav>
+        </header>
+    </div>
+
+    <main id="top">
+        <section class="hero" id="info">
+            <div class="wrap hero-content">
+                <div>
+                    <p class="eyebrow mono">3D-printing</p>
+                    <h1>Ideer laget<br><em>fargerike.</em></h1>
+                    <p class="hero-copy">Gjettum Printz gjør kreative ideer om til nyttige, morsomme og personlige 3D-printede produkter.</p>
+                    <p class="phone-number">Telefon: <a href="tel:+4794469531">+47 944 69 531</a></p>
+                    <a class="button" href="#order">Start en bestilling <span class="arrow">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="work" id="projects">
+            <div class="wrap">
+                <div class="section-heading">
+                    <div><p class="eyebrow mono">Tidligere prosjekter</p><h2>Ting vi har<br>printet før.</h2></div>
+                    <p>Se noen av designene våre. Vi kan lage dem på nytt eller skape noe helt nytt for deg.</p>
+                </div>
+                <div class="work-grid">
+                    <div class="work-item"><img src="bilder/20260920_204059.jpg" alt="Spesiallaget interiørprosjekt" loading="lazy"><span class="work-label">Keybord clicker fidget</span></div>
+                    <div class="work-item"><img src="bilder/20260920_204207.jpg" alt="Spesiallaget interiørprosjekt" loading="lazy"><span class="work-label">Custom keycap keybord clicker fidget</span></div>
+            </div>
+        </section>
+
+        <section id="order">
+            <div class="wrap order">
+                <div>
+                    <p class="eyebrow mono">Bestillingsskjema</p>
+                    <h2>Gjør ideen<br>din ekte.</h2>
+                    <p>Fyll ut bestillingsskjemaet med det du vil printe, så tar jeg kontakt med pris og leveringstid.</p>
+                </div>
+                <div class="order-form">
+                    <p>Bestillingen åpnes i Microsoft Forms.</p>
+                    <a class="button" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__fNZWtlUQ0I1SldOSzc1MjNKNUNBWFZCOVFZMjUyMS4u" target="_blank" rel="noopener noreferrer">Åpne bestillingsskjema <span class="arrow">↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="wrap"><footer><p><strong>GJETTUM PRINTZ</strong> · Laget av én person.</p><p class="mono">© 2026</p></footer></div>
 </body>
 </html>
